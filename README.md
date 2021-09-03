@@ -33,7 +33,7 @@ The following fields are available to be set on each item or subdirectory (somet
 | authors | List of `Author`s of the item. | ✔️ |
 | source | `Source` of the item. | ✔️ |
 | publication_date | `yyyy-mm-dd` formatted date of the publication of this item at the source. | ✔️ |
-| license | Relative path to the license file from the location of the config file, or an absolute URL to the license. | ✔️ |
+| license | An absolute URL to the license document. | ✔️ |
 
 For all of the Subdirectory-Enabled options, the keyword `!INHERIT` may be used to inherit any settings from parent configurations, to be extended.
 
